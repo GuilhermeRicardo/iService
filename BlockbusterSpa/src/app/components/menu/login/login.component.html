@@ -1,0 +1,25 @@
+<div *ngIf="!data" class="dialog">
+    <h1 mat-dialog-title>Login</h1>
+</div>
+<div *ngIf="data" class="dialog">
+  <h1 mat-dialog-title>Novo usuário</h1>
+</div>
+<div mat-dialog-content>
+  <form role="group" [formGroup]="loginForm">
+      <mat-form-field *ngIf="data" floatLabel="always">
+        <input formControlName="name" matInput placeholder="Nome">
+      </mat-form-field>
+      <mat-form-field floatLabel="always">
+        <input formControlName="email" matInput placeholder="E-Mail">
+      </mat-form-field>
+      <mat-form-field floatLabel="always">
+        <input type="password" formControlName="senha" matInput placeholder="Senha">
+      </mat-form-field>
+      <p *ngIf="invalidUser" class="invalid">Usuário Invalido!</p>
+  </form>
+</div>
+<div class="bottom" mat-dialog-actions>
+  <button mat-button mat-dialog-close>Cancel</button>
+  <button *ngIf="!data" mat-button (click)="tryLogin()">Ok</button>
+  <button *ngIf="data" mat-button (click)="tryNewUser()">Criar</button>
+</div>

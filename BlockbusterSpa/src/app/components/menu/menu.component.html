@@ -1,0 +1,47 @@
+<div class="container">
+    <div class="header">
+        <div class="info">
+           <p>Bem vindo!</p>
+        </div>
+        <div *ngIf="!verifiedUser" class="login">
+            <p>Favor realizar o login para continuar</p>
+            <button mat-button (click)="loginDialog()">
+                <mat-icon>key</mat-icon>
+                Login
+            </button>
+            <button mat-button (click)="newUserDialog()">
+                <mat-icon>add</mat-icon>
+                Criar novo Usuario  
+            </button>
+        </div>
+        <div *ngIf="verifiedUser" class="login">
+            <p>Olá, {{user.userName}}!</p>
+        </div>
+    </div>
+    <div *ngIf="verifiedUser" class="menu"> 
+        <mat-list>
+            <mat-list-item>
+                <button mat-button (click)="openRentTable()">
+                    <mat-icon>search</mat-icon>
+                    Lista de serviços solicitados
+                </button>
+            </mat-list-item>
+            <mat-list-item>
+                <button mat-button (click)="openNewRental()" >
+                    <mat-icon>add_task</mat-icon>
+                    Nova solicitação
+                </button>
+            </mat-list-item>
+            <mat-list-item>
+                <button mat-button (click)="logout()">
+                    <mat-icon>cancel</mat-icon>
+                    Deslogar
+                </button>
+            </mat-list-item>
+        </mat-list>
+    </div>
+
+    <div class="login">
+
+    </div>
+</div>

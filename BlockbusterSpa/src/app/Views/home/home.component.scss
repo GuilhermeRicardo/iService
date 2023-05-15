@@ -1,0 +1,51 @@
+.container {
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr) ;
+    grid-template-rows: repeat(8 , 1fr);
+
+    margin: 0px;
+    gap: 10px;
+    
+    background-color: #616161;
+    color: #fff;
+}
+
+.header {
+    grid-column: 2 / -1;
+    font-size: 24px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar {
+    background-color: #212121;
+    min-width: 280px;
+    grid-row: 1 / -1;
+    grid-column: 3 / 5 ;
+}
+
+
+// .content {
+//     grid-column: 2 /-1 ;
+//     grid-row: 2 / 8;
+//     padding: 30px;
+//     padding-top: 0px;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+.footer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 30px 45px;
+    grid-column: 2 / -1;
+    grid-row: 8 / -1;
+    font-size: 10px;
+}
+

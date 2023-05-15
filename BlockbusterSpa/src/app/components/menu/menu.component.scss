@@ -1,0 +1,39 @@
+.container { 
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.info {
+    margin: 30px 60px 30px 60px;
+    border: #fff;
+    grid-row: 1 / 2;
+}
+
+.header{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr) ;
+
+    font-size: 24px;
+    font-style: bold;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu{
+    grid-row: 2 / 2;
+    display: flex;
+    justify-content: center;
+    margin: 14px;
+}
+
+.login{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    font-size: 16px;
+    font-style: normal;
+    grid-row: 3;
+}
+
+.userAction{
+    grid-row: 1;
+}

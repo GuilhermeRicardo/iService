@@ -1,0 +1,24 @@
+<div>
+    <h2 mat-dialog-title>Nova solicitação de Serviço</h2>
+</div>
+<div class="table" >
+    <div>
+        <mat-form-field class="selector" appearance="fill">
+            <mat-label>Serviço</mat-label>
+            <!-- <mat-select  [(ngModel)]="value" (ngModelChange)="checkMovieAvailability()" > -->
+            <mat-select  [(ngModel)]="value">  
+              <mat-option *ngFor="let prestador of dataSource" [value]="prestador">
+                {{prestador.servico}}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+          <!-- <div class="message">
+            <p *ngIf="!movieAvailable" class="denied">{{holder}}</p>
+            <p *ngIf="movieAvailable" class="allowed">{{holder}}</p>
+          </div> -->
+    </div>
+    <div class="bottom" mat-dialog-actions>
+      <button mat-button mat-dialog-close>Cancel</button>
+      <button mat-button (click)="createNewRent()" mat-dialog-close>Ok</button>
+    </div>
+</div>
