@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MHUq2dldr1xc9SjIWsyuKczCvjUGylHVnNuaMR+tbXMq7TwOwpWwLAl7IUEdGUGclsXbZOyGoP5yP9PA7oZCJQ==",
+  "dgSpecHash": "+uhrTIsva6gcMTefyUne9bxJwwBqG5Bx8OcsPs0gVlhn30ZPqMIDbn3SwvKhAcTel5LzbK2GKILnOz8dMDxdlA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\grica\\Desktop\\Repo\\Godzilla-Local-Filmes\\BlockbusterApi\\BlockbusterApi.csproj",
+  "projectFilePath": "C:\\Users\\grica\\Desktop\\Repo\\iService\\iServiceApi\\BlockbusterApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\grica\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\grica\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.13\\microsoft.aspnetcore.authentication.jwtbearer.6.0.13.nupkg.sha512",

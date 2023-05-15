@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\grica\\Desktop\\Repo\\Godzilla-Local-Filmes\\BlockbusterApi\\BlockbusterApi.csproj": {}
+    "C:\\Users\\grica\\Desktop\\Repo\\iService\\iServiceApi\\BlockbusterApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\grica\\Desktop\\Repo\\Godzilla-Local-Filmes\\BlockbusterApi\\BlockbusterApi.csproj": {
+    "C:\\Users\\grica\\Desktop\\Repo\\iService\\iServiceApi\\BlockbusterApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\grica\\Desktop\\Repo\\Godzilla-Local-Filmes\\BlockbusterApi\\BlockbusterApi.csproj",
+        "projectUniqueName": "C:\\Users\\grica\\Desktop\\Repo\\iService\\iServiceApi\\BlockbusterApi.csproj",
         "projectName": "BlockbusterApi",
-        "projectPath": "C:\\Users\\grica\\Desktop\\Repo\\Godzilla-Local-Filmes\\BlockbusterApi\\BlockbusterApi.csproj",
+        "projectPath": "C:\\Users\\grica\\Desktop\\Repo\\iService\\iServiceApi\\BlockbusterApi.csproj",
         "packagesPath": "C:\\Users\\grica\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\grica\\Desktop\\Repo\\Godzilla-Local-Filmes\\BlockbusterApi\\obj\\",
+        "outputPath": "C:\\Users\\grica\\Desktop\\Repo\\iService\\iServiceApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -74,7 +74,7 @@ export class NewRentalComponent implements OnInit {
       this.dataSource.push(result)
       console.log(result);
     });
-    this.snackBar.open('Filme alugado com sucesso!', 'fechar',{
+    this.snackBar.open('Solicitação criada com sucesso!', 'fechar',{
       duration: 3000
     })
   }
