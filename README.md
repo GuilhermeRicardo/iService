@@ -54,7 +54,7 @@ Para o login, deve ser fornecido Body em JSON no seguinte formato:
 }
 
 
-Integrantes do grupo 28:
+##### Integrantes do grupo 28:
 
 Frederico Azzarini Neutzling
 
