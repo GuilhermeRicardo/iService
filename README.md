@@ -52,3 +52,13 @@ Para o login, deve ser fornecido Body em JSON no seguinte formato:
   "email": "string",
   "password": "string"
 }
+
+
+Integrantes do grupo 28:
+
+FREDERICO AZZARINI NEUTZLING
+GUSTAVO CORREA RODRIGUES
+GILBERTO DE SOUZA COSTA FILHO
+GABRIEL MARCOS SANTOS RIBEIRO FLORINDO
+WELBER PEREIRA DA COSTA
+GUILHERME RICARDO TAVARES PAULA
