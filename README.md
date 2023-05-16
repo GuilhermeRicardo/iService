@@ -10,14 +10,14 @@ Interface construida utilizando Angular 15 + Angular Materiais.
 
 Ações de criação de nova locação de filme, listagem de filmes locados e exclusão de registro de locação, serão validadas via Jwt Token armazeda no LocalStorage e serão carregadas em cada requisição utilizando Angular Interceptor.
 
-Para inilizar a interface em ambiente local deve ser utilizado o comando '*ng* serve' dentro do repositório '*BlockbusterSpa/*'
+Para inilizar a interface em ambiente local deve ser utilizado o comando '*ng* serve' dentro do repositório '*iServiceSpa/*'
  
 ## Back-End: API .Net 6.0 + Entity Framework & JWT Bearer Authentication + SQL Server.
 
 ###### *Importante: Para utilização do Backend para validação de endpoint será necessário o serviço SQL Server 2019 para criação de um banco de dados local utilizando o comando dotnet ef database update.*
  
   
-Para inicializar a API em ambiente local deve-se utilizar o comando '*dotnet* run' dentro do repositório '*BlockbusterApi/*'
+Para inicializar a API em ambiente local deve-se utilizar o comando '*dotnet* run' dentro do repositório '*iServiceApi/*'
 
 A API estará disponivel a partir do endpoint *'https://localhost:7288;'*. 
 
