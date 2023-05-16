@@ -56,16 +56,15 @@ Para o login, deve ser fornecido Body em JSON no seguinte formato:
 
 Integrantes do grupo 28:
 
+Frederico Azzarini Neutzling
 
+Gustavo Correa Rodrigues
 
-FREDERICO AZZARINI NEUTZLING
+Gilberto de Souza Costa Filho
 
-GUSTAVO CORREA RODRIGUES
+Gabriel Marcos Santos Ribeiro Florindo
 
-GILBERTO DE SOUZA COSTA FILHO
+Welber Pereira da Costa
 
-GABRIEL MARCOS SANTOS RIBEIRO FLORINDO
+Guilherme Ricardo Tavares Paula
 
-WELBER PEREIRA DA COSTA
-
-GUILHERME RICARDO TAVARES PAULA
